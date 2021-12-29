@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LY68L6400SLIT
+D AM SRAM 64Mb (8M x 8) SPI/ QPI SOP-8_150mil RoHS
+F https://datasheet.lcsc.com/szlcsc/Lyontek-Inc-LY68L6400SLIT_C261881.pdf
+$ENDCMP
+#
+#End Doc Library

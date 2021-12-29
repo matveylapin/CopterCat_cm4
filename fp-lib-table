@@ -1,0 +1,10 @@
+(fp_lib_table
+  (lib (name BMP388)(type KiCad)(uri ${KIPRJMOD}/libs/BMP388)(options "")(descr ""))
+  (lib (name FM25V02A-GTR)(type KiCad)(uri ${KIPRJMOD}/libs/FM25V02A-GTR)(options "")(descr ""))
+  (lib (name RPi_Compute_Module_4)(type KiCad)(uri ${KIPRJMOD}/libs/RPi-CM4/RPi_Compute_Module_4.pretty)(options "")(descr ""))
+  (lib (name ICM-42605)(type KiCad)(uri ${KIPRJMOD}/libs/ICM-42605/ICM-42605.pretty)(options "")(descr ""))
+  (lib (name BMI088)(type KiCad)(uri ${KIPRJMOD}/libs/BMI088/BMI088.pretty)(options "")(descr ""))
+  (lib (name ESP32-S2)(type KiCad)(uri ${KIPRJMOD}/libs/ESP32-S2/ESP32-S2.pretty)(options "")(descr ""))
+  (lib (name LY68L6400SLIT)(type KiCad)(uri ${KIPRJMOD}/libs/LY68L6400SLIT/LY68L6400SLIT.pretty)(options "")(descr ""))
+  (lib (name TPS54560BDDA)(type KiCad)(uri ${KIPRJMOD}/libs/TPS54560BDDA/TPS54560BDDA.pretty)(options "")(descr ""))
+)

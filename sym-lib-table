@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name BMP388)(type Legacy)(uri ${KIPRJMOD}/libs/BMP388/BMP388.lib)(options "")(descr ""))
+  (lib (name FM25V02A-GTR)(type Legacy)(uri ${KIPRJMOD}/libs/FM25V02A-GTR/FM25V02A-GTR.lib)(options "")(descr ""))
+  (lib (name Raspberry_Pi_Compute_Module_4)(type Legacy)(uri ${KIPRJMOD}/libs/RPi-CM4/Raspberry_Pi_Compute_Module_4.lib)(options "")(descr ""))
+  (lib (name ICM-42605)(type Legacy)(uri ${KIPRJMOD}/libs/ICM-42605/ICM-42605.lib)(options "")(descr ""))
+  (lib (name BMI088)(type Legacy)(uri ${KIPRJMOD}/libs/BMI088/BMI088.lib)(options "")(descr ""))
+  (lib (name ESP32-S2)(type Legacy)(uri ${KIPRJMOD}/libs/ESP32-S2/ESP32-S2.lib)(options "")(descr ""))
+  (lib (name LY68L6400SLIT)(type Legacy)(uri ${KIPRJMOD}/libs/LY68L6400SLIT/LY68L6400SLIT.lib)(options "")(descr ""))
+  (lib (name TPS54560BDDA)(type Legacy)(uri ${KIPRJMOD}/libs/TPS54560BDDA/TPS54560BDDA.lib)(options "")(descr ""))
+)
