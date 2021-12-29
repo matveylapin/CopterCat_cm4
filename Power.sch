@@ -942,17 +942,17 @@ $EndComp
 $Comp
 L 74xGxx:74AHC1G04 U12
 U 1 1 61C53331
-P 2500 2300
-F 0 "U12" H 2500 2750 50  0000 C CNN
-F 1 "U74AHC1G04G-AL5-R" H 2500 2650 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 2500 2300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2500 2300 50  0001 C CNN
-F 4 "U74AHC1G04G-AL5-R" H 2500 2300 50  0001 C CNN "Manufacturer_Part_Number"
-F 5 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2500 2300 50  0001 C CNN "Datasheet"
-F 6 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 2500 2300 50  0001 C CNN "Footprint"
-F 7 "U12" H 2500 2300 50  0001 C CNN "Reference"
-F 8 "U74AHC1G04G-AL5-R" H 2500 2300 50  0001 C CNN "Value"
-	1    2500 2300
+P 2700 2300
+F 0 "U12" H 2700 2750 50  0000 C CNN
+F 1 "U74AHC1G04G-AL5-R" H 2700 2650 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 2700 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2700 2300 50  0001 C CNN
+F 4 "U74AHC1G04G-AL5-R" H 2700 2300 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 2700 2300 50  0001 C CNN "Datasheet"
+F 6 "Package_TO_SOT_SMD:SOT-353_SC-70-5" H 2700 2300 50  0001 C CNN "Footprint"
+F 7 "U12" H 2700 2300 50  0001 C CNN "Reference"
+F 8 "U74AHC1G04G-AL5-R" H 2700 2300 50  0001 C CNN "Value"
+	1    2700 2300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -971,38 +971,34 @@ F 8 "NC7SZ02M5X" H 3350 3200 50  0001 C CNN "Value"
 	1    3350 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 2100 2300 0    50   Input ~ 0
+Text GLabel 2350 2300 0    50   Input ~ 0
 PWR_IN1
-Text GLabel 2100 3150 0    50   Input ~ 0
+Text GLabel 2350 3150 0    50   Input ~ 0
 PWR_IN1
-Text GLabel 2100 2700 0    50   Input ~ 0
+Text GLabel 2350 2550 0    50   Input ~ 0
 PWR_IN2
 Text GLabel 3800 2500 2    50   Input ~ 0
 PWR_EN2
 Text GLabel 3800 3200 2    50   Input ~ 0
 PWR_EN3
-Text GLabel 2100 3250 0    50   Input ~ 0
+Text GLabel 2350 3250 0    50   Input ~ 0
 PWR_IN2
 Wire Wire Line
-	2100 2700 2500 2700
+	2350 2550 3050 2550
 Wire Wire Line
-	2500 2700 2500 2550
+	2950 2300 3000 2300
 Wire Wire Line
-	2500 2550 3050 2550
+	3000 2300 3000 2450
 Wire Wire Line
-	2750 2300 2900 2300
-Wire Wire Line
-	2900 2300 2900 2450
-Wire Wire Line
-	2900 2450 3050 2450
+	3000 2450 3050 2450
 Wire Wire Line
 	3600 2500 3800 2500
 Wire Wire Line
-	2200 2300 2100 2300
+	2400 2300 2350 2300
 Wire Wire Line
-	3050 3150 2100 3150
+	3050 3150 2350 3150
 Wire Wire Line
-	2100 3250 3050 3250
+	2350 3250 3050 3250
 Wire Wire Line
 	3600 3200 3800 3200
 $EndSCHEMATC

@@ -532,7 +532,7 @@ STM_USB_D_N
 Text GLabel 21450 2900 2    50   Input ~ 0
 STM_SPI2_DRDY2
 Text GLabel 21450 2800 2    50   Input ~ 0
-STM_VBUS_SENSE
+VBUS_SENSE
 Text GLabel 21450 2700 2    50   Input ~ 0
 STM_I2C3_SCL
 Text GLabel 21450 2600 2    50   Input ~ 0

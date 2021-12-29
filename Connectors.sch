@@ -1706,4 +1706,99 @@ CF 22 11 B5 96 64 DC 09 00 40 32 99 54 AD 62 63 DC 79 10 51 EC D6 07 11 A4 AA B2
 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Connector:USB_C_Receptacle J?
+U 1 1 61CDAA86
+P 11850 2450
+F 0 "J?" H 11957 3717 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 11957 3626 50  0000 C CNN
+F 2 "" H 12000 2450 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 12000 2450 50  0001 C CNN
+	1    11850 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 12750 1350 2    50   Input ~ 0
+VBUS_SENSE
+$Comp
+L Power_Protection:TPD4E02B04DQA U?
+U 1 1 61CDF2A4
+P 12700 4350
+F 0 "U?" H 12988 4446 50  0000 L CNN
+F 1 "TPD4E02B04DQA" H 12988 4355 50  0000 L CNN
+F 2 "Package_SON:USON-10_2.5x1.0mm_P0.5mm" H 13000 4350 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf" H 12825 4675 50  0001 C CNN
+	1    12700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CE1733
+P 12700 4550
+AR Path="/61C29261/61CE1733" Ref="#PWR?"  Part="1" 
+AR Path="/61E12439/61CE1733" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12700 4300 50  0001 C CNN
+F 1 "GND" H 12705 4377 50  0000 C CNN
+F 2 "" H 12700 4550 50  0001 C CNN
+F 3 "" H 12700 4550 50  0001 C CNN
+	1    12700 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CE227D
+P 11850 4050
+AR Path="/61C29261/61CE227D" Ref="#PWR?"  Part="1" 
+AR Path="/61E12439/61CE227D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11850 3800 50  0001 C CNN
+F 1 "GND" H 11855 3877 50  0000 C CNN
+F 2 "" H 11850 4050 50  0001 C CNN
+F 3 "" H 11850 4050 50  0001 C CNN
+	1    11850 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CE293D
+P 11550 4050
+AR Path="/61C29261/61CE293D" Ref="#PWR?"  Part="1" 
+AR Path="/61E12439/61CE293D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 11550 3800 50  0001 C CNN
+F 1 "GND" H 11555 3877 50  0000 C CNN
+F 2 "" H 11550 4050 50  0001 C CNN
+F 3 "" H 11550 4050 50  0001 C CNN
+	1    11550 4050
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12450 1450 12500 1450
+Wire Wire Line
+	12500 1450 12500 2050
+Connection ~ 12500 1450
+Wire Wire Line
+	12500 1450 12650 1450
+Wire Wire Line
+	12450 2150 12450 2250
+Wire Wire Line
+	12450 1950 12450 2050
+Wire Wire Line
+	12450 2050 12500 2050
+Connection ~ 12450 2050
+Connection ~ 12500 2050
+Wire Wire Line
+	12500 2050 12500 2250
+Wire Wire Line
+	12450 2250 12500 2250
+Connection ~ 12450 2250
+Connection ~ 12500 2250
+Wire Wire Line
+	12500 2250 12500 4050
+Text GLabel 12750 1450 2    50   Input ~ 0
+PWR_IN2
+Wire Wire Line
+	12750 1350 12650 1350
+Wire Wire Line
+	12650 1350 12650 1450
+Connection ~ 12650 1450
+Wire Wire Line
+	12650 1450 12750 1450
 $EndSCHEMATC
