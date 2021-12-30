@@ -991,8 +991,6 @@ Wire Wire Line
 	2200 9000 2350 9000
 Wire Wire Line
 	2650 9000 2650 8850
-Text GLabel 2950 8850 2    50   Input ~ 0
-SENSORS_3V3
 Wire Wire Line
 	2950 8850 2650 8850
 Connection ~ 2650 8850
@@ -2294,8 +2292,6 @@ Wire Wire Line
 	3300 5650 3400 5650
 Wire Wire Line
 	3400 5650 3400 5750
-Text GLabel 1550 4150 0    50   Input ~ 0
-STM_VBUS_SENSE
 Text GLabel 1550 4250 0    50   Input ~ 0
 USB_FMU_D_N
 Text GLabel 1550 4350 0    50   Input ~ 0
@@ -2723,4 +2719,8 @@ Wire Wire Line
 	900  4750 1250 4750
 Wire Wire Line
 	900  4750 900  4650
+Text GLabel 1550 4150 0    50   Input ~ 0
+VBUS_SENSE
+Text GLabel 2950 8850 2    50   Input ~ 0
+SENSORS_3V3
 $EndSCHEMATC
