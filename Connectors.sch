@@ -1704,43 +1704,8 @@ CF 22 11 B5 96 64 DC 09 00 40 32 99 54 AD 62 63 DC 79 10 51 EC D6 07 11 A4 AA B2
 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-$Comp
-L Connector:USB_C_Receptacle J6
-U 1 1 61CDAA86
-P 11850 2450
-F 0 "J6" H 11957 3717 50  0000 C CNN
-F 1 "USB_C_Receptacle" H 11957 3626 50  0000 C CNN
-F 2 "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11" H 12000 2450 50  0001 C CNN
-F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 12000 2450 50  0001 C CNN
-	1    11850 2450
-	1    0    0    -1  
-$EndComp
-Text GLabel 12750 1350 2    50   Input ~ 0
+Text GLabel 13000 1350 2    50   Input ~ 0
 VBUS_SENSE
-$Comp
-L Power_Protection:TPD4E02B04DQA U15
-U 1 1 61CDF2A4
-P 12700 4350
-F 0 "U15" H 12988 4446 50  0000 L CNN
-F 1 "TPD4E02B04DQA" H 12988 4355 50  0000 L CNN
-F 2 "Package_SON:USON-10_2.5x1.0mm_P0.5mm" H 13000 4350 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf" H 12825 4675 50  0001 C CNN
-	1    12700 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0153
-U 1 1 61CE1733
-P 12700 4550
-AR Path="/61C29261/61CE1733" Ref="#PWR0153"  Part="1" 
-AR Path="/61E12439/61CE1733" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0153" H 12700 4300 50  0001 C CNN
-F 1 "GND" H 12705 4377 50  0000 C CNN
-F 2 "" H 12700 4550 50  0001 C CNN
-F 3 "" H 12700 4550 50  0001 C CNN
-	1    12700 4550
-	-1   0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0154
 U 1 1 61CE227D
@@ -1767,38 +1732,163 @@ F 3 "" H 11550 4050 50  0001 C CNN
 	1    11550 4050
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	12450 1450 12500 1450
-Wire Wire Line
-	12500 1450 12500 2050
-Connection ~ 12500 1450
-Wire Wire Line
-	12500 1450 12650 1450
-Wire Wire Line
-	12450 2150 12450 2250
-Wire Wire Line
-	12450 1950 12450 2050
-Wire Wire Line
-	12450 2050 12500 2050
-Connection ~ 12450 2050
-Connection ~ 12500 2050
-Wire Wire Line
-	12500 2050 12500 2250
-Wire Wire Line
-	12450 2250 12500 2250
-Connection ~ 12450 2250
-Connection ~ 12500 2250
-Wire Wire Line
-	12500 2250 12500 4050
-Text GLabel 12750 1450 2    50   Input ~ 0
+Text GLabel 13000 1450 2    50   Input ~ 0
 PWR_IN2
 Wire Wire Line
-	12750 1350 12650 1350
+	13000 1350 12650 1350
 Wire Wire Line
 	12650 1350 12650 1450
 Connection ~ 12650 1450
 Wire Wire Line
-	12650 1450 12750 1450
+	12650 1450 13000 1450
 Text GLabel 4500 2500 2    50   Input ~ 0
 STM_CH1
+Wire Wire Line
+	12450 1950 12450 2050
+Wire Wire Line
+	12450 2150 12450 2250
+Text GLabel 13000 2050 2    50   Input ~ 0
+USB_FMU_D_N
+Text GLabel 13000 2250 2    50   Input ~ 0
+USB_FMU_D_P
+Wire Wire Line
+	12450 2250 13000 2250
+Wire Wire Line
+	12450 2050 13000 2050
+Wire Wire Line
+	12450 1450 12650 1450
+Connection ~ 12450 2250
+Connection ~ 12450 2050
+$Comp
+L power:GND #PWR0153
+U 1 1 61CE1733
+P 11800 4800
+AR Path="/61C29261/61CE1733" Ref="#PWR0153"  Part="1" 
+AR Path="/61E12439/61CE1733" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0153" H 11800 4550 50  0001 C CNN
+F 1 "GND" H 11805 4627 50  0000 C CNN
+F 2 "" H 11800 4800 50  0001 C CNN
+F 3 "" H 11800 4800 50  0001 C CNN
+	1    11800 4800
+	0    1    -1   0   
+$EndComp
+$Comp
+L Power_Protection:TPD4E02B04DQA U15
+U 1 1 61CDF2A4
+P 12000 4800
+F 0 "U15" H 12288 4896 50  0000 L CNN
+F 1 "TPD4E02B04DQA" H 12288 4805 50  0000 L CNN
+F 2 "Package_SON:USON-10_2.5x1.0mm_P0.5mm" H 12300 4800 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf" H 12125 5125 50  0001 C CNN
+F 4 "TPD4E02B04DQA" H 12000 4800 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "http://www.ti.com/lit/ds/symlink/tpd4e02b04.pdf" H 12000 4800 50  0001 C CNN "Datasheet"
+F 6 "Package_SON:USON-10_2.5x1.0mm_P0.5mm" H 12000 4800 50  0001 C CNN "Footprint"
+F 7 "U15" H 12000 4800 50  0001 C CNN "Reference"
+F 8 "TPD4E02B04DQA" H 12000 4800 50  0001 C CNN "Value"
+	1    12000 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:USB_C_Receptacle J6
+U 1 1 61CDAA86
+P 11850 2450
+F 0 "J6" H 11957 3717 50  0000 C CNN
+F 1 "USB_C_Receptacle" H 11957 3626 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11" H 12000 2450 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 12000 2450 50  0001 C CNN
+F 4 "U262-161N-4BVC11" H 11850 2450 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 11850 2450 50  0001 C CNN "Datasheet"
+F 6 "Connector_USB:USB_C_Receptacle_XKB_U262-16XN-4BVC11" H 11850 2450 50  0001 C CNN "Footprint"
+F 7 "J6" H 11850 2450 50  0001 C CNN "Reference"
+F 8 "USB_C_Receptacle" H 11850 2450 50  0001 C CNN "Value"
+	1    11850 2450
+	1    0    0    -1  
+$EndComp
+Text GLabel 12350 4600 2    50   Input ~ 0
+VBUS_SENSE
+Text GLabel 12350 4900 2    50   Input ~ 0
+USB_FMU_D_N
+Text GLabel 12350 5000 2    50   Input ~ 0
+USB_FMU_D_P
+Wire Wire Line
+	12350 4600 12300 4600
+Wire Wire Line
+	12300 4900 12350 4900
+Wire Wire Line
+	12350 5000 12300 5000
+$Comp
+L Device:R R?
+U 1 1 6391FDB2
+P 12800 2500
+AR Path="/61B917F2/6391FDB2" Ref="R?"  Part="1" 
+AR Path="/61B8EE7D/6391FDB2" Ref="R?"  Part="1" 
+AR Path="/623216E9/6391FDB2" Ref="R?"  Part="1" 
+AR Path="/61C29261/6391FDB2" Ref="R38"  Part="1" 
+F 0 "R38" V 12593 2500 50  0000 C CNN
+F 1 "5K1" V 12684 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 12730 2500 50  0001 C CNN
+F 3 "~" H 12800 2500 50  0001 C CNN
+F 4 "~" H 12800 2500 50  0001 C CNN "Datasheet"
+F 5 "Resistor_SMD:R_0402_1005Metric" H 12800 2500 50  0001 C CNN "Footprint"
+F 6 "5K1" H 12800 2500 50  0001 C CNN "Value"
+F 7 "R38" H 12800 2500 50  0001 C CNN "Reference"
+	1    12800 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0144
+U 1 1 639482DC
+P 12850 2650
+AR Path="/61C29261/639482DC" Ref="#PWR0144"  Part="1" 
+AR Path="/61E12439/639482DC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0144" H 12850 2400 50  0001 C CNN
+F 1 "GND" H 12855 2477 50  0000 C CNN
+F 2 "" H 12850 2650 50  0001 C CNN
+F 3 "" H 12850 2650 50  0001 C CNN
+	1    12850 2650
+	-1   0    0    -1  
+$EndComp
+Connection ~ 12850 2650
+Wire Wire Line
+	12850 2650 12800 2650
+Wire Wire Line
+	12900 2650 12850 2650
+$Comp
+L Device:R R?
+U 1 1 6392B246
+P 12900 2500
+AR Path="/61B917F2/6392B246" Ref="R?"  Part="1" 
+AR Path="/61B8EE7D/6392B246" Ref="R?"  Part="1" 
+AR Path="/623216E9/6392B246" Ref="R?"  Part="1" 
+AR Path="/61C29261/6392B246" Ref="R39"  Part="1" 
+F 0 "R39" V 12693 2500 50  0000 C CNN
+F 1 "5K1" V 12784 2500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 12830 2500 50  0001 C CNN
+F 3 "~" H 12900 2500 50  0001 C CNN
+F 4 "~" H 12900 2500 50  0001 C CNN "Datasheet"
+F 5 "Resistor_SMD:R_0402_1005Metric" H 12900 2500 50  0001 C CNN "Footprint"
+F 6 "5K1" H 12900 2500 50  0001 C CNN "Value"
+F 7 "R39" H 12900 2500 50  0001 C CNN "Reference"
+	1    12900 2500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	12800 2350 12800 1750
+Wire Wire Line
+	12800 1750 12450 1750
+Wire Wire Line
+	12900 2350 12900 1650
+Wire Wire Line
+	12900 1650 12450 1650
+NoConn ~ 12450 3650
+NoConn ~ 12450 3750
+NoConn ~ 12450 3450
+NoConn ~ 12450 3350
+NoConn ~ 12450 3150
+NoConn ~ 12450 3050
+NoConn ~ 12450 2850
+NoConn ~ 12450 2750
+NoConn ~ 12450 2550
+NoConn ~ 12450 2450
+NoConn ~ 12300 4700
 $EndSCHEMATC

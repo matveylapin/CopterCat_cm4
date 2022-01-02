@@ -1344,67 +1344,67 @@ Text GLabel 7850 5100 0    50   Input ~ 0
 RPI_GPIO_VREF
 Wire Wire Line
 	8050 5100 7850 5100
-Text GLabel 1400 3550 0    50   Input ~ 0
+Text GLabel 1200 3650 0    50   Input ~ 0
 RPI_GPIO_VREF
-Text GLabel 1650 3550 2    50   Input ~ 0
+Text GLabel 1450 3650 2    50   Input ~ 0
 RPI_OUT_3V3
 Wire Wire Line
-	1650 3550 1400 3550
+	1450 3650 1200 3650
 Text GLabel 10650 6100 2    50   Input ~ 0
 RPI_CAM_GPIO
 Wire Wire Line
 	10650 6100 10450 6100
-Text GLabel 1750 4000 2    50   Input ~ 0
+Text GLabel 1600 4100 2    50   Input ~ 0
 RPI_I2C1_SDA
-Text GLabel 1750 3900 2    50   Input ~ 0
+Text GLabel 1600 4000 2    50   Input ~ 0
 RPI_I2C1_SCL
-Text GLabel 1350 3950 0    50   Input ~ 0
+Text GLabel 1200 4050 0    50   Input ~ 0
 RPI_GPIO_VREF
 $Comp
 L Device:R R?
 U 1 1 61C9A939
-P 1550 3900
+P 1400 4000
 AR Path="/61B917F2/61C9A939" Ref="R?"  Part="1" 
 AR Path="/623216E9/61C9A939" Ref="R19"  Part="1" 
-F 0 "R19" V 1343 3900 50  0000 C CNN
-F 1 "4.7K" V 1434 3900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1480 3900 50  0001 C CNN
-F 3 "~" H 1550 3900 50  0001 C CNN
-F 4 "~" H 1550 3900 50  0001 C CNN "Datasheet"
-F 5 "Resistor_SMD:R_0402_1005Metric" H 1550 3900 50  0001 C CNN "Footprint"
-F 6 "R19" H 1550 3900 50  0001 C CNN "Reference"
-F 7 "4.7K" H 1550 3900 50  0001 C CNN "Value"
-	1    1550 3900
+F 0 "R19" V 1193 4000 50  0000 C CNN
+F 1 "4.7K" V 1284 4000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1330 4000 50  0001 C CNN
+F 3 "~" H 1400 4000 50  0001 C CNN
+F 4 "~" H 1400 4000 50  0001 C CNN "Datasheet"
+F 5 "Resistor_SMD:R_0402_1005Metric" H 1400 4000 50  0001 C CNN "Footprint"
+F 6 "R19" H 1400 4000 50  0001 C CNN "Reference"
+F 7 "4.7K" H 1400 4000 50  0001 C CNN "Value"
+	1    1400 4000
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 61CA115D
-P 1550 4000
+P 1400 4100
 AR Path="/61B917F2/61CA115D" Ref="R?"  Part="1" 
 AR Path="/623216E9/61CA115D" Ref="R20"  Part="1" 
-F 0 "R20" V 1343 4000 50  0000 C CNN
-F 1 "4.7K" V 1434 4000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1480 4000 50  0001 C CNN
-F 3 "~" H 1550 4000 50  0001 C CNN
-F 4 "~" H 1550 4000 50  0001 C CNN "Datasheet"
-F 5 "Resistor_SMD:R_0402_1005Metric" H 1550 4000 50  0001 C CNN "Footprint"
-F 6 "R20" H 1550 4000 50  0001 C CNN "Reference"
-F 7 "4.7K" H 1550 4000 50  0001 C CNN "Value"
-	1    1550 4000
+F 0 "R20" V 1193 4100 50  0000 C CNN
+F 1 "4.7K" V 1284 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1330 4100 50  0001 C CNN
+F 3 "~" H 1400 4100 50  0001 C CNN
+F 4 "~" H 1400 4100 50  0001 C CNN "Datasheet"
+F 5 "Resistor_SMD:R_0402_1005Metric" H 1400 4100 50  0001 C CNN "Footprint"
+F 6 "R20" H 1400 4100 50  0001 C CNN "Reference"
+F 7 "4.7K" H 1400 4100 50  0001 C CNN "Value"
+	1    1400 4100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	1700 3900 1750 3900
+	1550 4000 1600 4000
 Wire Wire Line
-	1750 4000 1700 4000
+	1600 4100 1550 4100
 Wire Wire Line
-	1400 4000 1400 3950
+	1250 4100 1250 4050
 Wire Wire Line
-	1400 3950 1350 3950
-Connection ~ 1400 3950
+	1250 4050 1200 4050
+Connection ~ 1250 4050
 Wire Wire Line
-	1400 3950 1400 3900
+	1250 4050 1250 4000
 Text GLabel 10650 2500 2    50   Input ~ 0
 RPI_GPIO21
 Wire Wire Line
@@ -1673,4 +1673,226 @@ F 7 "33R" H 2700 1250 50  0001 C CNN "Value"
 	1    2700 1250
 	0    1    1    0   
 $EndComp
+$Comp
+L Memory_EEPROM:CAT24C256 U16
+U 1 1 635B8D6B
+P 2050 5000
+F 0 "U16" H 2050 5550 50  0000 C CNN
+F 1 "CAT24C256" H 2050 5450 50  0000 C CNN
+F 2 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm" H 2050 5000 50  0001 C CNN
+F 3 "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" H 2050 5000 50  0001 C CNN
+F 4 "CAT24C256HU4IGT3" H 2050 5000 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "https://www.onsemi.cn/PowerSolutions/document/CAT24C256-D.PDF" H 2050 5000 50  0001 C CNN "Datasheet"
+F 6 "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm" H 2050 5000 50  0001 C CNN "Footprint"
+F 7 "U16" H 2050 5000 50  0001 C CNN "Reference"
+F 8 "CAT24C256" H 2050 5000 50  0001 C CNN "Value"
+	1    2050 5000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2500 4900 2    50   Input ~ 0
+RPI_I2C1_SDA
+Text GLabel 2500 5000 2    50   Input ~ 0
+RPI_I2C1_SCL
+$Comp
+L Device:R R?
+U 1 1 635C83DE
+P 1600 4700
+AR Path="/61B917F2/635C83DE" Ref="R?"  Part="1" 
+AR Path="/61B8EE7D/635C83DE" Ref="R?"  Part="1" 
+AR Path="/623216E9/635C83DE" Ref="R37"  Part="1" 
+F 0 "R37" V 1393 4700 50  0000 C CNN
+F 1 "100K" V 1484 4700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1530 4700 50  0001 C CNN
+F 3 "~" H 1600 4700 50  0001 C CNN
+F 4 "~" H 1600 4700 50  0001 C CNN "Datasheet"
+F 5 "Resistor_SMD:R_0402_1005Metric" H 1600 4700 50  0001 C CNN "Footprint"
+F 6 "R37" H 1600 4700 50  0001 C CNN "Reference"
+F 7 "100K" H 1600 4700 50  0001 C CNN "Value"
+	1    1600 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 635D24BA
+P 1350 5250
+AR Path="/61B917F2/635D24BA" Ref="R?"  Part="1" 
+AR Path="/61B8EE7D/635D24BA" Ref="R?"  Part="1" 
+AR Path="/623216E9/635D24BA" Ref="R35"  Part="1" 
+F 0 "R35" V 1143 5250 50  0000 C CNN
+F 1 "100K" V 1234 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1280 5250 50  0001 C CNN
+F 3 "~" H 1350 5250 50  0001 C CNN
+F 4 "~" H 1350 5250 50  0001 C CNN "Datasheet"
+F 5 "Resistor_SMD:R_0402_1005Metric" H 1350 5250 50  0001 C CNN "Footprint"
+F 6 "R35" H 1350 5250 50  0001 C CNN "Reference"
+F 7 "100K" H 1350 5250 50  0001 C CNN "Value"
+	1    1350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 635DC537
+P 1500 5250
+AR Path="/61B917F2/635DC537" Ref="R?"  Part="1" 
+AR Path="/61B8EE7D/635DC537" Ref="R?"  Part="1" 
+AR Path="/623216E9/635DC537" Ref="R36"  Part="1" 
+F 0 "R36" V 1293 5250 50  0000 C CNN
+F 1 "100K" V 1384 5250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1430 5250 50  0001 C CNN
+F 3 "~" H 1500 5250 50  0001 C CNN
+F 4 "~" H 1500 5250 50  0001 C CNN "Datasheet"
+F 5 "Resistor_SMD:R_0402_1005Metric" H 1500 5250 50  0001 C CNN "Footprint"
+F 6 "R36" H 1500 5250 50  0001 C CNN "Reference"
+F 7 "100K" H 1500 5250 50  0001 C CNN "Value"
+	1    1500 5250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 4900 2450 4900
+Wire Wire Line
+	2450 5000 2500 5000
+Wire Wire Line
+	1650 5000 1350 5000
+Wire Wire Line
+	1650 4900 1600 4900
+Wire Wire Line
+	1650 5100 1500 5100
+Text GLabel 1200 4500 0    50   Input ~ 0
+RPI_GPIO_VREF
+$Comp
+L power:GND #PWR06
+U 1 1 63626276
+P 2050 5450
+F 0 "#PWR06" H 2050 5200 50  0001 C CNN
+F 1 "GND" H 2055 5277 50  0000 C CNN
+F 2 "" H 2050 5450 50  0001 C CNN
+F 3 "" H 2050 5450 50  0001 C CNN
+	1    2050 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 5300 2050 5400
+Wire Wire Line
+	2450 5100 2500 5100
+Wire Wire Line
+	2500 5100 2500 5400
+Wire Wire Line
+	2500 5400 2050 5400
+Connection ~ 2050 5400
+Wire Wire Line
+	2050 5400 2050 5450
+Wire Wire Line
+	1600 4500 1250 4500
+Text GLabel 2500 4650 2    50   Input ~ 0
+RPI_GPIO_VREF
+Wire Wire Line
+	2500 4650 2050 4650
+Wire Wire Line
+	2050 4650 2050 4700
+$Comp
+L Device:C C?
+U 1 1 6367CB22
+P 1250 4700
+AR Path="/61B917F2/6367CB22" Ref="C?"  Part="1" 
+AR Path="/623216E9/6367CB22" Ref="C35"  Part="1" 
+F 0 "C35" V 1500 4650 50  0000 L CNN
+F 1 "100nF" V 1400 4600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1288 4550 50  0001 C CNN
+F 3 "~" H 1250 4700 50  0001 C CNN
+F 4 "~" H 1250 4700 50  0001 C CNN "Datasheet"
+F 5 "Capacitor_SMD:C_0402_1005Metric" H 1250 4700 50  0001 C CNN "Footprint"
+F 6 "C35" H 1250 4700 50  0001 C CNN "Reference"
+F 7 "100nF" H 1250 4700 50  0001 C CNN "Value"
+	1    1250 4700
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 4550 1600 4500
+Wire Wire Line
+	1600 4850 1600 4900
+Wire Wire Line
+	1250 4900 1250 4850
+Wire Wire Line
+	1250 4550 1250 4500
+Connection ~ 1250 4500
+Wire Wire Line
+	1250 4500 1200 4500
+Connection ~ 1500 5400
+Wire Wire Line
+	1500 5400 2050 5400
+Wire Wire Line
+	1350 5400 1500 5400
+Wire Wire Line
+	1350 5100 1350 5000
+$Comp
+L power:GND #PWR05
+U 1 1 6379875D
+P 1250 4900
+F 0 "#PWR05" H 1250 4650 50  0001 C CNN
+F 1 "GND" H 1255 4727 50  0000 C CNN
+F 2 "" H 1250 4900 50  0001 C CNN
+F 3 "" H 1250 4900 50  0001 C CNN
+	1    1250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_2_Open JP?
+U 1 1 63834B16
+P 1400 6050
+AR Path="/61B8EE7D/63834B16" Ref="JP?"  Part="1" 
+AR Path="/623216E9/63834B16" Ref="JP2"  Part="1" 
+F 0 "JP2" H 1400 6255 50  0000 C CNN
+F 1 "BOOT" H 1400 6164 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1400 6050 50  0001 C CNN
+F 3 "~" H 1400 6050 50  0001 C CNN
+F 4 "~" H 1400 6050 50  0001 C CNN "Datasheet"
+F 5 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 1400 6050 50  0001 C CNN "Footprint"
+F 6 "JP2" H 1400 6050 50  0001 C CNN "Reference"
+F 7 "BOOT" H 1400 6050 50  0001 C CNN "Value"
+	1    1400 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 63841424
+P 1200 6250
+AR Path="/61B917F2/63841424" Ref="R?"  Part="1" 
+AR Path="/61B8EE7D/63841424" Ref="R?"  Part="1" 
+AR Path="/623216E9/63841424" Ref="R34"  Part="1" 
+F 0 "R34" V 993 6250 50  0000 C CNN
+F 1 "1K5" V 1084 6250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1130 6250 50  0001 C CNN
+F 3 "~" H 1200 6250 50  0001 C CNN
+F 4 "~" H 1200 6250 50  0001 C CNN "Datasheet"
+F 5 "Resistor_SMD:R_0402_1005Metric" H 1200 6250 50  0001 C CNN "Footprint"
+F 6 "R34" H 1200 6250 50  0001 C CNN "Reference"
+F 7 "1K5" H 1200 6250 50  0001 C CNN "Value"
+	1    1200 6250
+	1    0    0    -1  
+$EndComp
+Text GLabel 10650 5900 2    50   Input ~ 0
+RPI_NRPIBOOT
+Wire Wire Line
+	10650 5900 10450 5900
+Text GLabel 1650 6050 2    50   Input ~ 0
+RPI_NRPIBOOT
+$Comp
+L power:GND #PWR04
+U 1 1 6384ECCD
+P 1200 6450
+F 0 "#PWR04" H 1200 6200 50  0001 C CNN
+F 1 "GND" H 1205 6277 50  0000 C CNN
+F 2 "" H 1200 6450 50  0001 C CNN
+F 3 "" H 1200 6450 50  0001 C CNN
+	1    1200 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6050 1550 6050
+Wire Wire Line
+	1250 6050 1200 6050
+Wire Wire Line
+	1200 6050 1200 6100
+Wire Wire Line
+	1200 6400 1200 6450
 $EndSCHEMATC

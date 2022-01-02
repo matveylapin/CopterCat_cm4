@@ -958,30 +958,30 @@ $EndComp
 $Comp
 L 74xGxx:74AHC1G02 U14
 U 1 1 61CD2B59
-P 3350 3200
-F 0 "U14" H 3350 3550 50  0000 C CNN
-F 1 "NC7SZ02M5X" H 3350 3450 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3350 3200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 3200 50  0001 C CNN
-F 4 "NC7SZ02M5X" H 3350 3200 50  0001 C CNN "Manufacturer_Part_Number"
-F 5 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 3200 50  0001 C CNN "Datasheet"
-F 6 "Package_TO_SOT_SMD:SOT-23-5" H 3350 3200 50  0001 C CNN "Footprint"
-F 7 "U14" H 3350 3200 50  0001 C CNN "Reference"
-F 8 "NC7SZ02M5X" H 3350 3200 50  0001 C CNN "Value"
-	1    3350 3200
+P 3350 3300
+F 0 "U14" H 3350 3650 50  0000 C CNN
+F 1 "NC7SZ02M5X" H 3350 3550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3350 3300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 3300 50  0001 C CNN
+F 4 "NC7SZ02M5X" H 3350 3300 50  0001 C CNN "Manufacturer_Part_Number"
+F 5 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 3350 3300 50  0001 C CNN "Datasheet"
+F 6 "Package_TO_SOT_SMD:SOT-23-5" H 3350 3300 50  0001 C CNN "Footprint"
+F 7 "U14" H 3350 3300 50  0001 C CNN "Reference"
+F 8 "NC7SZ02M5X" H 3350 3300 50  0001 C CNN "Value"
+	1    3350 3300
 	1    0    0    -1  
 $EndComp
 Text GLabel 2350 2300 0    50   Input ~ 0
 PWR_IN1
-Text GLabel 2350 3150 0    50   Input ~ 0
+Text GLabel 2350 3250 0    50   Input ~ 0
 PWR_IN1
 Text GLabel 2350 2550 0    50   Input ~ 0
 PWR_IN2
 Text GLabel 3800 2500 2    50   Input ~ 0
 PWR_EN2
-Text GLabel 3800 3200 2    50   Input ~ 0
+Text GLabel 3800 3300 2    50   Input ~ 0
 PWR_EN3
-Text GLabel 2350 3250 0    50   Input ~ 0
+Text GLabel 2350 3350 0    50   Input ~ 0
 PWR_IN2
 Wire Wire Line
 	2350 2550 3050 2550
@@ -996,9 +996,48 @@ Wire Wire Line
 Wire Wire Line
 	2400 2300 2350 2300
 Wire Wire Line
-	3050 3150 2350 3150
+	3050 3250 2350 3250
 Wire Wire Line
-	2350 3250 3050 3250
+	2350 3350 3050 3350
 Wire Wire Line
-	3600 3200 3800 3200
+	3600 3300 3800 3300
+$Comp
+L power:GND #PWR08
+U 1 1 61CE2503
+P 3350 2650
+F 0 "#PWR08" H 3350 2400 50  0001 C CNN
+F 1 "GND" H 3355 2477 50  0000 C CNN
+F 2 "" H 3350 2650 50  0001 C CNN
+F 3 "" H 3350 2650 50  0001 C CNN
+	1    3350 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 61CE2903
+P 3350 3450
+F 0 "#PWR09" H 3350 3200 50  0001 C CNN
+F 1 "GND" H 3355 3277 50  0000 C CNN
+F 2 "" H 3350 3450 50  0001 C CNN
+F 3 "" H 3350 3450 50  0001 C CNN
+	1    3350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 61CE462E
+P 2700 2650
+F 0 "#PWR07" H 2700 2400 50  0001 C CNN
+F 1 "GND" H 2705 2477 50  0000 C CNN
+F 2 "" H 2700 2650 50  0001 C CNN
+F 3 "" H 2700 2650 50  0001 C CNN
+	1    2700 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 3450 3350 3400
+Wire Wire Line
+	3350 2650 3350 2600
+Wire Wire Line
+	2700 2400 2700 2650
 $EndSCHEMATC

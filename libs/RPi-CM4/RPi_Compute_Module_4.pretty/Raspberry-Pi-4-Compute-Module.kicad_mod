@@ -1,4 +1,4 @@
-(module Raspberry-Pi-4-Compute-Module (layer F.Cu) (tedit 61BB6FDB)
+(module Raspberry-Pi-4-Compute-Module (layer F.Cu) (tedit 61D21F6C)
   (descr "Raspberry Pi 4 Compute Module")
   (tags "Raspberry Pi 4 Compute Module")
   (attr smd)
