@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ANT016008LCS2442MA2
+#
+DEF ANT016008LCS2442MA2 ANT 0 40 N Y 1 L N
+F0 "ANT" -600 250 50 H V L BNN
+F1 "ANT016008LCS2442MA2" -595 -300 50 H V L BNN
+F2 "ANT_ANT016008LCS2442MA2" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN "PACKAGE"
+F5 "TDK" 0 0 50 H I L BNN "MF"
+F6 "None" 0 0 50 H I L BNN "PRICE"
+F7 "Unavailable" 0 0 50 H I L BNN "AVAILABILITY"
+F8 "ANT016008LCS2442MA1" 0 0 50 H I L BNN "MP"
+F9 "2.4GHz Chip RF Antenna 2.4GHz ~ 2.484GHz 1.6dBi Solder Surface Mount" 0 0 50 H I L BNN "DESCRIPTION"
+DRAW
+S -600 -200 600 200 0 0 6 f
+X FEEDING 4 -700 100 100 R 40 40 0 0 P 
+X RADIATOR_ELECTRODE 1 -700 -100 100 R 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
