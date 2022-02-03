@@ -1,6 +1,6 @@
 (footprint "Raspberry-Pi-4-Compute-Module" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 61D268C5)
+  (tedit 61F92600)
   (descr "Raspberry Pi 4 Compute Module")
   (tags "Raspberry Pi 4 Compute Module")
   (attr smd)
@@ -313,12 +313,12 @@
     (rotate (xyz 0 0 -90))
   )
   (model "${KIPRJMOD}/libs/RPi-CM4/3D/DF40HC(3.0)-100DS-0.4V.stp"
-    (offset (xyz -16.96 -0.12 0))
+    (offset (xyz -16.96 -0.12 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )
   (model "${KIPRJMOD}/libs/RPi-CM4/3D/DF40HC(3.0)-100DS-0.4V.stp"
-    (offset (xyz 16.96 -0.12 0))
+    (offset (xyz 16.96 -0.12 1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
   )

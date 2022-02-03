@@ -8,4 +8,5 @@
   (lib (name "LY68L6400SLIT")(type "Legacy")(uri "${KIPRJMOD}/libs/LY68L6400SLIT/LY68L6400SLIT.lib")(options "")(descr ""))
   (lib (name "TPS54560BDDA")(type "Legacy")(uri "${KIPRJMOD}/libs/TPS54560BDDA/TPS54560BDDA.lib")(options "")(descr ""))
   (lib (name "ANT016008LCS2442MA2")(type "Legacy")(uri "${KIPRJMOD}/libs/ANT016008LCS2442MA2/ANT016008LCS2442MA2.lib")(options "")(descr ""))
+  (lib (name "47579-0001")(type "Legacy")(uri "${KIPRJMOD}/libs/47579-0001/47579-0001.lib")(options "")(descr ""))
 )
