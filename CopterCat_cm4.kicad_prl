@@ -36,6 +36,7 @@
       8,
       9,
       10,
+      11,
       12,
       13,
       14,
@@ -61,7 +62,7 @@
       35,
       36
     ],
-    "visible_layers": "7fdffcf_80000007",
+    "visible_layers": "7fcffcf_80000007",
     "zone_display_mode": 1
   },
   "meta": {
@@ -69,6 +70,31 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "CopterCat_cm4.kicad_sch",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 0,
+          "pos_y": 26,
+          "size_x": 1920,
+          "size_y": 1148
+        }
+      },
+      {
+        "name": "CopterCat_cm4.kicad_pcb",
+        "open": true,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 0,
+          "pos_y": -70,
+          "size_x": 1920,
+          "size_y": 1200
+        }
+      }
+    ]
   }
 }

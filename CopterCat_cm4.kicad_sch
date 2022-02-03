@@ -9,9 +9,9 @@
 
   (bus_alias "I2C" (members "SCL" "SDA" "DRDY[1..5]"))
   (bus_alias "UART" (members "TX" "RX" "RTS" "CTS"))
-  (bus_alias "CSI" (members "D_P[0..3]" "D_N[0..3]" "C_P" "C_N"))
   (bus_alias "SPI" (members "SCK" "MISO" "MOSI" "CS[1..5]" "DRDY[1..5]"))
   (bus_alias "USB" (members "DP" "DN" "ID" "VBUS"))
+  (bus_alias "CSI" (members "D_P[0..3]" "D_N[0..3]" "C_P" "C_N"))
   (junction (at 147.32 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 46f46b74-fb63-41c7-92b1-94c95dcf9097)
   )
@@ -1914,7 +1914,7 @@
     (path "/df3680da-0b1d-40d2-9b0d-103f43f756ab/42ca3f34-8043-42fa-a632-815fa917343e"
       (reference "Y3") (unit 1) (value "24MHz") (footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm")
     )
-    (path "/00000000-0000-0000-0000-000061c250a4/00000000-0000-0000-0000-000061d104d4"
+    (path "/00000000-0000-0000-0000-000061c250a4/051ffcb0-37b2-4555-ab78-57f157e32ab8"
       (reference "Y4") (unit 1) (value "40MHz") (footprint "Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm")
     )
   )
