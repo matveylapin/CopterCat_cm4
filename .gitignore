@@ -28,3 +28,4 @@ fp-info-cache
 .DS_Store
 *.zip
 libs/.DS_Store
+*.kicad_prl
