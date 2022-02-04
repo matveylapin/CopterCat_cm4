@@ -4369,7 +4369,7 @@
 
   (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
     (tedit 59FED5CC) (tstamp ae77e898-f313-4d8e-89d3-0f14e9f27538)
-    (at 263.5 88.075)
+    (at 254.6 101.625)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (property "Sheetfile" "Connectors.kicad_sch")
