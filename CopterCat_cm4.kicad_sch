@@ -9,8 +9,8 @@
 
   (bus_alias "I2C" (members "SCL" "SDA" "DRDY[1..5]"))
   (bus_alias "UART" (members "TX" "RX" "RTS" "CTS"))
-  (bus_alias "SPI" (members "SCK" "MISO" "MOSI" "CS[1..5]" "DRDY[1..5]"))
   (bus_alias "USB" (members "DP" "DN" "ID" "VBUS"))
+  (bus_alias "SPI" (members "SCK" "MISO" "MOSI" "CS[1..5]" "DRDY[1..5]"))
   (bus_alias "CSI" (members "D_P[0..3]" "D_N[0..3]" "C_P" "C_N"))
   (junction (at 147.32 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 46f46b74-fb63-41c7-92b1-94c95dcf9097)
@@ -1338,9 +1338,6 @@
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061cebe98"
       (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061d18284"
-      (reference "#PWR0141") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061d36c7a"
       (reference "#PWR0142") (unit 1) (value "GND") (footprint "")
     )
@@ -1430,6 +1427,9 @@
     )
     (path "/00000000-0000-0000-0000-000061e12439/8f2e3046-2752-4143-a829-39e8cab08f3d"
       (reference "#PWR0172") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000061c29261/a1e6e2c4-397e-4467-9a6c-eb9cdfe26fd1"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061c250a4/1a28e523-8149-4b77-b61b-12daef28fcac"
       (reference "ANT1") (unit 1) (value "ANT016008LCS2442MA2") (footprint "ANT016008LCS2442MA2:ANT_ANT016008LCS2442MA2")
@@ -1584,6 +1584,9 @@
     (path "/00000000-0000-0000-0000-000061c250a4/00000000-0000-0000-0000-000061ccf994"
       (reference "F3") (unit 1) (value "BLM15BC241SN1D") (footprint "Fuse:Fuse_0402_1005Metric")
     )
+    (path "/00000000-0000-0000-0000-000061c29261/eb6a987e-b044-454b-b090-77b23595518e"
+      (reference "GND") (unit 1) (value "Conn_01x01_Male") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
+    )
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061c3eb84"
       (reference "GPS1") (unit 1) (value "A1257WR-S-6P") (footprint "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal")
     )
@@ -1612,10 +1615,10 @@
       (reference "J7") (unit 1) (value "USB_SWITCH") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061b8ee7d/00000000-0000-0000-0000-000061e2176a"
-      (reference "JP1") (unit 1) (value "BOOT") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+      (reference "JP1") (unit 1) (value "BOOT") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000623216e9/00000000-0000-0000-0000-000063834b16"
-      (reference "JP2") (unit 1) (value "BR") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+      (reference "JP2") (unit 1) (value "BR") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-000061c250a4/50aaf505-85e3-4cce-af9b-70377de2106c"
       (reference "L1") (unit 1) (value "3nH") (footprint "Inductor_SMD:L_0402_1005Metric")
@@ -1626,8 +1629,8 @@
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061d355eb"
       (reference "LASER1") (unit 1) (value "A1257WR-S-4P") (footprint "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061d0dda6"
-      (reference "LED1") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-000061c29261/82a33a3d-e58b-4485-82cc-38155ff14a84"
+      (reference "LED") (unit 1) (value "Conn_01x01_Male") (footprint "TestPoint:TestPoint_Pad_D2.0mm")
     )
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061c4e148"
       (reference "POWER1") (unit 1) (value "A1257WR-S-6P") (footprint "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal")
