@@ -1232,7 +1232,7 @@
   (no_connect (at 73.66 172.72) (uuid c15911e8-4923-4234-8b3d-2dd127f85dcd))
   (no_connect (at 73.66 175.26) (uuid c15911e8-4923-4234-8b3d-2dd127f85dce))
   (no_connect (at 66.04 48.26) (uuid cc6118bb-d807-43d6-9deb-9a84987b23c1))
-  (no_connect (at 66.04 45.72) (uuid cc6118bb-d807-43d6-9deb-9a84987b23c1))
+  (no_connect (at 66.04 45.72) (uuid cc6118bb-d807-43d6-9deb-9a84987b23c2))
 
   (bus_entry (at 148.59 68.58) (size -2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
