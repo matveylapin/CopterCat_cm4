@@ -34,8 +34,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.7,
-          "width": 1.0
+          "height": 1.5,
+          "width": 1.3
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -413,7 +413,6 @@
           "/Connectors/RPI_LASER_I2C.SDA",
           "/Connectors/STM_ADC.3V3",
           "/Connectors/STM_ADC.6V6",
-          "/Connectors/STM_DEBUG.3V3",
           "/Connectors/STM_DEBUG.RX",
           "/Connectors/STM_DEBUG.SWCLK",
           "/Connectors/STM_DEBUG.SWDIO",
@@ -537,7 +536,6 @@
           "Net-(Q1-Pad2)",
           "Net-(Q1-Pad3)",
           "Net-(Q4-Pad1)",
-          "Net-(Q4-Pad2)",
           "Net-(Q5-Pad1)",
           "Net-(Q6-Pad3)",
           "Net-(R1-Pad2)",
@@ -837,6 +835,7 @@
         "name": "low_power",
         "nets": [
           "/Connectors/RPI_OUT_3V3",
+          "/Connectors/STM_DEBUG.3V3",
           "/ESP32/ESP_3V3",
           "/Power/3V3_GROUP1",
           "/STM32/SENSORS_3V3"
@@ -863,6 +862,7 @@
           "/Connectors/PWR_IN_JST",
           "/Power/5V_GROUP2",
           "/STM32/STM_USB.VBUS",
+          "Net-(Q4-Pad2)",
           "VCC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
@@ -878,6 +878,7 @@
     },
     "net_colors": {
       "/STM32/STM_USB.VBUS": "rgb(255, 2, 255)",
+      "GND": "rgb(0, 0, 255)",
       "VCC": "rgb(253, 0, 0)"
     }
   },
@@ -886,7 +887,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "../../../../../../Downloads/CopterCat_cm4.dsn",
+      "specctra_dsn": "../../../../../CopterCat_cm4.dsn",
       "step": "",
       "vrml": ""
     },

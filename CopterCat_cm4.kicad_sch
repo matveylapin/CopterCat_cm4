@@ -1749,6 +1749,9 @@
     (path "/00000000-0000-0000-0000-000061e12439/1324e271-6f8d-4a1d-a087-9877bd0193ea"
       (reference "R56") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
+    (path "/00000000-0000-0000-0000-000061b8ee7d/752355f6-cdbb-4f25-8b5c-8fd730aa8b04"
+      (reference "R57") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061c46a6c"
       (reference "RC1") (unit 1) (value "A1257WR-S-5P") (footprint "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal")
     )
