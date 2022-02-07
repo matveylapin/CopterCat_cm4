@@ -3983,7 +3983,7 @@
     (uuid 00000000-0000-0000-0000-000063834b16)
     (property "Reference" "JP2" (id 0) (at 31.75 197.993 0))
     (property "Value" "BR" (id 1) (at 31.75 200.3044 0))
-    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" (id 2) (at 31.75 203.2 0)
+    (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" (id 2) (at 31.75 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 31.75 203.2 0)

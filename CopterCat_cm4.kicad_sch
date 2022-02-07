@@ -9,22 +9,15 @@
 
   (bus_alias "I2C" (members "SCL" "SDA" "DRDY[1..5]"))
   (bus_alias "UART" (members "TX" "RX" "RTS" "CTS"))
-  (bus_alias "SPI" (members "SCK" "MISO" "MOSI" "CS[1..5]" "DRDY[1..5]"))
-  (bus_alias "USB" (members "DP" "DN" "ID" "VBUS"))
   (bus_alias "CSI" (members "D_P[0..3]" "D_N[0..3]" "C_P" "C_N"))
+  (bus_alias "USB" (members "DP" "DN" "ID" "VBUS"))
+  (bus_alias "SPI" (members "SCK" "MISO" "MOSI" "CS[1..5]" "DRDY[1..5]"))
   (junction (at 147.32 90.17) (diameter 0) (color 0 0 0 0)
     (uuid 46f46b74-fb63-41c7-92b1-94c95dcf9097)
   )
   (junction (at 195.58 90.17) (diameter 0) (color 0 0 0 0)
     (uuid efe32f4a-2712-4e0f-8050-b6d2f6f9e599)
   )
-
-  (no_connect (at 87.63 63.5) (uuid d87fa7c6-eef8-41d8-acd6-8bee552d03d2))
-  (no_connect (at 87.63 66.04) (uuid d87fa7c6-eef8-41d8-acd6-8bee552d03d3))
-  (no_connect (at 87.63 55.88) (uuid d87fa7c6-eef8-41d8-acd6-8bee552d03d4))
-  (no_connect (at 87.63 58.42) (uuid d87fa7c6-eef8-41d8-acd6-8bee552d03d5))
-  (no_connect (at 87.63 60.96) (uuid d87fa7c6-eef8-41d8-acd6-8bee552d03d6))
-  (no_connect (at 87.63 68.58) (uuid fa8d0d2e-a2d8-461a-b98f-52a8a3284075))
 
   (wire (pts (xy 195.58 74.93) (xy 200.66 74.93))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -34,11 +27,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 019b35ac-df44-439d-81bb-cecf77a69203)
   )
-  (polyline (pts (xy 114.3 69.85) (xy 114.3 50.8))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 031b9808-b072-4f8c-ae84-4b30c751683d)
-  )
-
   (bus (pts (xy 144.78 104.14) (xy 144.78 54.61))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 04a47558-c28d-4aff-b431-af3a861d5d1e)
@@ -52,11 +40,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 08e60ada-5e13-409f-a9ca-ef0b05494e6c)
   )
-  (bus (pts (xy 87.63 63.5) (xy 90.17 63.5))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 0a44e38e-3581-4d36-8198-e799f660ef7e)
-  )
-
   (wire (pts (xy 194.31 72.39) (xy 200.66 72.39))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 14fc0060-c658-466c-a5e7-6394f1702634)
@@ -126,11 +109,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 58c9d724-2b6c-4458-a6b9-9da045426606)
   )
-  (polyline (pts (xy 114.3 50.8) (xy 90.17 50.8))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 5aad118c-dacb-4acd-8cd3-cf3b3d3fceb1)
-  )
-
   (wire (pts (xy 147.32 90.17) (xy 151.13 90.17))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5c9342e6-de67-4024-961d-5b277f53c4b5)
@@ -169,29 +147,15 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 70a2f9f6-a67c-4eae-a281-a3c6f6136515)
   )
-  (polyline (pts (xy 90.17 69.85) (xy 114.3 69.85))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 7ba73b69-b03b-450a-8a37-932d2420538c)
-  )
-
   (bus (pts (xy 248.92 77.47) (xy 248.92 92.71))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 80c37a79-7f24-4441-bb31-1aee9fdc6af1)
-  )
-  (bus (pts (xy 87.63 58.42) (xy 90.17 58.42))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 83cc72a8-f03f-4f36-b62d-d8d10a9ec126)
   )
 
   (wire (pts (xy 186.69 63.5) (xy 200.66 63.5))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 8601049f-b9f9-46a3-b2bc-496454f07c04)
   )
-  (bus (pts (xy 87.63 60.96) (xy 90.17 60.96))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 882af335-b80b-4037-afaa-d95daa089923)
-  )
-
   (wire (pts (xy 148.59 110.49) (xy 148.59 104.14))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 884bfd63-50ed-4a34-8680-dfdc9384c44d)
@@ -212,18 +176,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 9c3c36eb-9513-41f5-b5e0-c16a7f8bf2b0)
   )
-  (bus (pts (xy 87.63 68.58) (xy 90.17 68.58))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9d9634e1-7b72-4f81-ab88-1d55befb3973)
-  )
 
   (wire (pts (xy 236.22 77.47) (xy 236.22 92.71))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a187e0db-8b5d-4a78-9e37-d30d54abfb06)
-  )
-  (bus (pts (xy 87.63 55.88) (xy 90.17 55.88))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a39ec3a7-73e0-4143-8841-ed931ac86204)
   )
   (bus (pts (xy 73.66 87.63) (xy 81.28 87.63))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -243,11 +199,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b9fe41a2-7a16-4028-bac6-ab48765248dc)
   )
-  (bus (pts (xy 87.63 66.04) (xy 90.17 66.04))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid be29a449-7c92-4537-bc4e-0f16e4f2c414)
-  )
-
   (wire (pts (xy 139.7 113.03) (xy 195.58 113.03))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid cbd24826-7625-4d04-90bc-bc1d321ff73b)
@@ -785,11 +736,6 @@
     )
   )
 
-  (text "Not used" (at 90.17 53.34 0)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
-    (uuid 292c6921-fad6-487b-86e2-77ed7cac094f)
-  )
-
   (sheet (at 90.17 27.94) (size 49.53 59.69) (fields_autoplaced)
     (stroke (width 0) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
@@ -855,30 +801,6 @@
     (pin "STM_DEBUG{DEBUG}" input (at 139.7 38.1 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid d5ce01bc-53a9-438c-a05b-edc52505c913)
-    )
-    (pin "STM_UART4{UART}" input (at 90.17 66.04 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 6e631cf0-04a0-4b55-83e9-fba2eaf9c89d)
-    )
-    (pin "STM_UART8{UART}" input (at 90.17 68.58 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid fb651ce1-2a85-4cf9-b3c1-b2e00809a166)
-    )
-    (pin "STM_SPI6{SPI NRESET}" input (at 90.17 63.5 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid e9ddebfe-6234-495f-857c-7eae0de220e1)
-    )
-    (pin "STM_SPI4{SPI}" input (at 90.17 60.96 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid ec89b122-b33b-4d73-b552-495120539a46)
-    )
-    (pin "STM_I2C2{I2C}" input (at 90.17 55.88 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid d6266d11-e235-4ca1-ac20-85b4925b0a72)
-    )
-    (pin "STM_I2C3{I2C}" input (at 90.17 58.42 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid cd9db771-a499-45cf-bb91-4602ae0c839d)
     )
     (pin "STM_RC{RX PPM PWR}" input (at 139.7 45.72 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -1338,7 +1260,7 @@
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061cebe98"
       (reference "#PWR0140") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061d18284"
+    (path "/00000000-0000-0000-0000-000061c29261/a1e6e2c4-397e-4467-9a6c-eb9cdfe26fd1"
       (reference "#PWR0141") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061d36c7a"
@@ -1578,11 +1500,8 @@
     (path "/00000000-0000-0000-0000-000061e12439/a939cb0c-5eb5-4bb7-8453-8d1de826fe44"
       (reference "D7") (unit 1) (value "1N5819WS") (footprint "Diode_SMD:D_SOD-323")
     )
-    (path "/00000000-0000-0000-0000-000061c250a4/00000000-0000-0000-0000-000061c954c1"
-      (reference "F2") (unit 1) (value "BLM15BC241SN1D") (footprint "Fuse:Fuse_0402_1005Metric")
-    )
-    (path "/00000000-0000-0000-0000-000061c250a4/00000000-0000-0000-0000-000061ccf994"
-      (reference "F3") (unit 1) (value "BLM15BC241SN1D") (footprint "Fuse:Fuse_0402_1005Metric")
+    (path "/00000000-0000-0000-0000-000061c29261/eb6a987e-b044-454b-b090-77b23595518e"
+      (reference "GND1") (unit 1) (value "Conn_01x01_Male") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061c3eb84"
       (reference "GPS1") (unit 1) (value "A1257WR-S-6P") (footprint "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal")
@@ -1612,10 +1531,10 @@
       (reference "J7") (unit 1) (value "USB_SWITCH") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000061b8ee7d/00000000-0000-0000-0000-000061e2176a"
-      (reference "JP1") (unit 1) (value "BOOT") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+      (reference "JP1") (unit 1) (value "BOOT") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-0000623216e9/00000000-0000-0000-0000-000063834b16"
-      (reference "JP2") (unit 1) (value "BR") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm")
+      (reference "JP2") (unit 1) (value "BR") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
     (path "/00000000-0000-0000-0000-000061c250a4/50aaf505-85e3-4cce-af9b-70377de2106c"
       (reference "L1") (unit 1) (value "3nH") (footprint "Inductor_SMD:L_0402_1005Metric")
@@ -1626,8 +1545,8 @@
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061d355eb"
       (reference "LASER1") (unit 1) (value "A1257WR-S-4P") (footprint "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061d0dda6"
-      (reference "LED1") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-000061c29261/82a33a3d-e58b-4485-82cc-38155ff14a84"
+      (reference "LED1") (unit 1) (value "Conn_01x01_Male") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
     )
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061c4e148"
       (reference "POWER1") (unit 1) (value "A1257WR-S-6P") (footprint "Connector_JST:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal")
@@ -1829,6 +1748,9 @@
     )
     (path "/00000000-0000-0000-0000-000061e12439/1324e271-6f8d-4a1d-a087-9877bd0193ea"
       (reference "R56") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/00000000-0000-0000-0000-000061b8ee7d/752355f6-cdbb-4f25-8b5c-8fd730aa8b04"
+      (reference "R57") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061c46a6c"
       (reference "RC1") (unit 1) (value "A1257WR-S-5P") (footprint "Connector_JST:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal")
