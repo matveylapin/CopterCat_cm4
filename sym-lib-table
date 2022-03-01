@@ -9,4 +9,5 @@
   (lib (name "TPS54560BDDA")(type "Legacy")(uri "${KIPRJMOD}/libs/TPS54560BDDA/TPS54560BDDA.lib")(options "")(descr ""))
   (lib (name "ANT016008LCS2442MA2")(type "Legacy")(uri "${KIPRJMOD}/libs/ANT016008LCS2442MA2/ANT016008LCS2442MA2.lib")(options "")(descr ""))
   (lib (name "47579-0001")(type "Legacy")(uri "${KIPRJMOD}/libs/47579-0001/47579-0001.lib")(options "")(descr ""))
+  (lib (name "SSM6J507NU_LF")(type "Legacy")(uri "${KIPRJMOD}/libs/SSM6J507NU_LF/SSM6J507NU_LF.lib")(options "")(descr ""))
 )

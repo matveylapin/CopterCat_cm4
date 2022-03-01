@@ -8,8 +8,8 @@
   )
 
   (bus_alias "I2C" (members "SCL" "SDA" "DRDY[1..5]"))
-  (bus_alias "CSI" (members "D_P[0..3]" "D_N[0..3]" "C_P" "C_N"))
   (bus_alias "SPI" (members "SCK" "MISO" "MOSI" "CS[1..5]" "DRDY[1..5]"))
+  (bus_alias "CSI" (members "D_P[0..3]" "D_N[0..3]" "C_P" "C_N"))
   (bus_alias "UART" (members "TX" "RX" "RTS" "CTS"))
   (bus_alias "USB" (members "DP" "DN" "ID" "VBUS"))
   (junction (at 138.43 104.14) (diameter 0) (color 0 0 0 0)
@@ -1167,7 +1167,7 @@
     (path "/00000000-0000-0000-0000-000061c29261/80a563d6-31e5-49fa-82a7-e8e944678484"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000061c250a4/78ba0f7e-ef4b-488f-910b-86fed99e892b"
+    (path "/00000000-0000-0000-0000-000061c250a4/5d0a4d9a-4e0e-4917-8cc4-8bc3d500d165"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000061c250a4/85acbc66-221e-4938-be3e-1c54a7815624"
@@ -1461,6 +1461,9 @@
     (path "/00000000-0000-0000-0000-000061e12439/a4f964b2-efc0-41be-b909-9d303efbe6c7"
       (reference "C28") (unit 1) (value "10uF") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
     )
+    (path "/00000000-0000-0000-0000-000061c250a4/c322890e-14c1-46f5-b267-f55221ee900f"
+      (reference "C29") (unit 1) (value "1pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/00000000-0000-0000-0000-000061c250a4/00000000-0000-0000-0000-000061d27a58"
       (reference "C30") (unit 1) (value "15pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -1516,10 +1519,10 @@
       (reference "D1") (unit 1) (value "LED_RBAG") (footprint "LED_SMD:LED_Cree-PLCC4_2x2mm_CW")
     )
     (path "/00000000-0000-0000-0000-000061b8ee7d/eac8f116-cae7-48f7-81a4-32fa3cff55ac"
-      (reference "D5") (unit 1) (value "1N5819WS") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D5") (unit 1) (value "BAT60JFILM") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-000061e12439/a939cb0c-5eb5-4bb7-8453-8d1de826fe44"
-      (reference "D7") (unit 1) (value "1N5819WS") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D7") (unit 1) (value "BAT60JFILM") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/00000000-0000-0000-0000-000061c29261/eb6a987e-b044-454b-b090-77b23595518e"
       (reference "GND1") (unit 1) (value "Conn_01x01_Male") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
@@ -1572,11 +1575,8 @@
     (path "/00000000-0000-0000-0000-0000623216e9/00000000-0000-0000-0000-000063834b16"
       (reference "JP2") (unit 1) (value "BR") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
     )
-    (path "/00000000-0000-0000-0000-000061c250a4/50aaf505-85e3-4cce-af9b-70377de2106c"
-      (reference "L1") (unit 1) (value "3nH") (footprint "Inductor_SMD:L_0402_1005Metric")
-    )
     (path "/00000000-0000-0000-0000-000061c250a4/329ca2d3-6a85-4e68-b6b3-bb2907832d08"
-      (reference "L2") (unit 1) (value "2nH") (footprint "Inductor_SMD:L_0402_1005Metric")
+      (reference "L2") (unit 1) (value "1nH") (footprint "Inductor_SMD:L_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000061c29261/00000000-0000-0000-0000-000061d355eb"
       (reference "LASER1") (unit 1) (value "A1257WR-S-4P") (footprint "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal")
@@ -1593,8 +1593,8 @@
     (path "/00000000-0000-0000-0000-000061e12439/d98594b5-bcfd-4ef8-a6d8-94a69b821995"
       (reference "Q1") (unit 2) (value "MMDT3906") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
-    (path "/00000000-0000-0000-0000-000061e12439/449566ae-cf34-404a-a335-acc4a679d9d4"
-      (reference "Q2") (unit 1) (value "DMP3013SFV") (footprint "Package_SON:Diodes_PowerDI3333-8")
+    (path "/00000000-0000-0000-0000-000061e12439/9bb167d3-2cab-418a-a51c-93a8e79d1703"
+      (reference "Q2") (unit 1) (value "SSM6J507NU,LF") (footprint "TRANS_SSM6J507NU,LF")
     )
     (path "/00000000-0000-0000-0000-000061c250a4/deefd0d1-7017-498b-9ea5-cccdfa6cc861"
       (reference "Q3") (unit 1) (value "MUN5211DW1") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
@@ -1614,8 +1614,8 @@
     (path "/00000000-0000-0000-0000-000061b8ee7d/993ae8a0-a050-4fe9-a491-f07b730f6a4d"
       (reference "Q7") (unit 1) (value "FDN340P") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/00000000-0000-0000-0000-000061e12439/af5e029b-f012-429b-8843-3938908705b7"
-      (reference "Q8") (unit 1) (value "DMP3013SFV") (footprint "Package_SON:Diodes_PowerDI3333-8")
+    (path "/00000000-0000-0000-0000-000061e12439/9a855dd6-397b-43b6-9406-ee89c5464f2e"
+      (reference "Q8") (unit 1) (value "SSM6J507NU,LF") (footprint "TRANS_SSM6J507NU,LF")
     )
     (path "/00000000-0000-0000-0000-0000623216e9/374779ee-d2a7-425d-a3a7-8eda4a1bb3ca"
       (reference "R1") (unit 1) (value "33R") (footprint "Resistor_SMD:R_0402_1005Metric")

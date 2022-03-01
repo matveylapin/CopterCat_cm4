@@ -9,4 +9,5 @@
   (lib (name "TPS54560BDDA")(type "KiCad")(uri "${KIPRJMOD}/libs/TPS54560BDDA/TPS54560BDDA.pretty")(options "")(descr ""))
   (lib (name "ANT016008LCS2442MA2")(type "KiCad")(uri "${KIPRJMOD}/libs/ANT016008LCS2442MA2/ANT016008LCS2442MA2.pretty")(options "")(descr ""))
   (lib (name "47579-0001")(type "KiCad")(uri "${KIPRJMOD}/libs/47579-0001/47579-0001.pretty")(options "")(descr ""))
+  (lib (name "SSM6J507NU_LF")(type "KiCad")(uri "${KIPRJMOD}/libs/SSM6J507NU_LF/SSM6J507NU_LF.pretty")(options "")(descr ""))
 )
