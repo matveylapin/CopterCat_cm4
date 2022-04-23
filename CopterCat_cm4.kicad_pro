@@ -889,7 +889,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "../../../../../CopterCat_cm4.dsn",
-      "step": "",
+      "step": "../../../../../../Downloads/CopterCat_cm4.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
